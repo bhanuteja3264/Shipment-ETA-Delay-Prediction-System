@@ -1,0 +1,7 @@
+# Generated reports and temporary PDF work
+*.pdf
+/output/pdf/
+/tmp/pdfs/
+
+# Keep the report generator local as requested
+/src/build_report_pdf.py

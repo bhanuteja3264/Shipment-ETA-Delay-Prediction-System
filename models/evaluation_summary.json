@@ -1,0 +1,117 @@
+{
+  "dataset": {
+    "rows": 1000,
+    "features": 28,
+    "date_range": [
+      "2023-01-01",
+      "2023-12-31"
+    ]
+  },
+  "split": {
+    "train_rows": 700,
+    "validation_rows": 150,
+    "test_rows": 150,
+    "train_through": "2023-09-20",
+    "validation_through": "2023-11-11"
+  },
+  "targets": {
+    "delay_regression": "delay_hr",
+    "high_delay_classification": "delay_hr >= 6.0 hours",
+    "high_delay_train_rate": 0.4186,
+    "high_delay_validation_rate": 0.4333,
+    "high_delay_test_rate": 0.6133
+  },
+  "eta_assumption": "ETA = ship_date/ship_hour + distance_km / assumed route speed + 4 hours per transit stop + predicted delay_hr; assumed route speeds: highway 55, mixed 40, rural 30 km/h.",
+  "regression_test": {
+    "mae_hr": 1.6207,
+    "rmse_hr": 1.8387,
+    "r2": 0.3257
+  },
+  "classification_test": {
+    "threshold": 0.5,
+    "accuracy": 0.72,
+    "precision": 1.0,
+    "recall": 0.5435,
+    "f1": 0.7042,
+    "roc_auc": 0.9368,
+    "average_precision": 0.9618,
+    "confusion_matrix_tn_fp_fn_tp": [
+      58,
+      0,
+      42,
+      50
+    ]
+  },
+  "top_global_delay_factors": [
+    {
+      "feature": "numeric__carrier_avg_delay_hr",
+      "mean_abs_contribution_delay_hr": 0.8832627534866333,
+      "mean_contribution_delay_hr": -0.08305244147777557,
+      "mean_abs_contribution_high_delay": 1.0427350997924805,
+      "mean_contribution_high_delay": -0.19463132321834564
+    },
+    {
+      "feature": "categorical__route_type_rural",
+      "mean_abs_contribution_delay_hr": 0.8393936157226562,
+      "mean_contribution_delay_hr": -0.010186217725276947,
+      "mean_abs_contribution_high_delay": 1.11471426486969,
+      "mean_contribution_high_delay": -0.0709444209933281
+    },
+    {
+      "feature": "numeric__carrier_network_congestion_score",
+      "mean_abs_contribution_delay_hr": 0.35078930854797363,
+      "mean_contribution_delay_hr": -0.10500137507915497,
+      "mean_abs_contribution_high_delay": 0.35085421800613403,
+      "mean_contribution_high_delay": -0.10791183263063431
+    },
+    {
+      "feature": "numeric__storm_alert",
+      "mean_abs_contribution_delay_hr": 0.34772536158561707,
+      "mean_contribution_delay_hr": 0.010042006149888039,
+      "mean_abs_contribution_high_delay": 0.2559811770915985,
+      "mean_contribution_high_delay": 0.005908242892473936
+    },
+    {
+      "feature": "categorical__weather_destination_fog",
+      "mean_abs_contribution_delay_hr": 0.342835009098053,
+      "mean_contribution_delay_hr": -0.03169141337275505,
+      "mean_abs_contribution_high_delay": 0.24711082875728607,
+      "mean_contribution_high_delay": -0.030262963846325874
+    },
+    {
+      "feature": "numeric__num_transit_stops",
+      "mean_abs_contribution_delay_hr": 0.32055264711380005,
+      "mean_contribution_delay_hr": -0.004483544733375311,
+      "mean_abs_contribution_high_delay": 0.22188985347747803,
+      "mean_contribution_high_delay": -0.010624400340020657
+    },
+    {
+      "feature": "categorical__weather_origin_fog",
+      "mean_abs_contribution_delay_hr": 0.23224607110023499,
+      "mean_contribution_delay_hr": -0.038723479956388474,
+      "mean_abs_contribution_high_delay": 0.20105545222759247,
+      "mean_contribution_high_delay": -0.03867707774043083
+    },
+    {
+      "feature": "categorical__weather_origin_rain",
+      "mean_abs_contribution_delay_hr": 0.15276332199573517,
+      "mean_contribution_delay_hr": -0.02240889146924019,
+      "mean_abs_contribution_high_delay": 0.1547856330871582,
+      "mean_contribution_high_delay": -0.025671960785984993
+    },
+    {
+      "feature": "numeric__stops_x_congestion",
+      "mean_abs_contribution_delay_hr": 0.1280524879693985,
+      "mean_contribution_delay_hr": -0.027449076995253563,
+      "mean_abs_contribution_high_delay": 0.12429359555244446,
+      "mean_contribution_high_delay": -0.02854432724416256
+    },
+    {
+      "feature": "categorical__weather_origin_clear",
+      "mean_abs_contribution_delay_hr": 0.11560479551553726,
+      "mean_contribution_delay_hr": -0.0006586670642718673,
+      "mean_abs_contribution_high_delay": 0.18942485749721527,
+      "mean_contribution_high_delay": -0.0056289192289114
+    }
+  ]
+}

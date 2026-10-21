@@ -1,0 +1,85 @@
+feature,mean_abs_contribution_delay_hr,mean_contribution_delay_hr,mean_abs_contribution_high_delay,mean_contribution_high_delay
+numeric__carrier_avg_delay_hr,0.88326275,-0.08305244,1.0427351,-0.19463132
+categorical__route_type_rural,0.8393936,-0.010186218,1.1147143,-0.07094442
+numeric__carrier_network_congestion_score,0.3507893,-0.105001375,0.35085422,-0.10791183
+numeric__storm_alert,0.34772536,0.010042006,0.25598118,0.005908243
+categorical__weather_destination_fog,0.342835,-0.031691413,0.24711083,-0.030262964
+numeric__num_transit_stops,0.32055265,-0.0044835447,0.22188985,-0.0106244
+categorical__weather_origin_fog,0.23224607,-0.03872348,0.20105545,-0.038677078
+categorical__weather_origin_rain,0.15276332,-0.022408891,0.15478563,-0.02567196
+numeric__stops_x_congestion,0.12805249,-0.027449077,0.124293596,-0.028544327
+categorical__weather_origin_clear,0.115604796,-0.00065866706,0.18942486,-0.005628919
+categorical__weather_origin_storm,0.10835407,0.0027939144,0.109905966,0.0024137388
+categorical__weather_destination_clear,0.09103386,-0.01314555,0.1106035,-0.010814127
+numeric__distance_per_stop,0.07227921,-0.0038217036,0.16434808,-0.0015785291
+categorical__weather_destination_rain,0.071061194,-0.0011060702,0.1325959,-0.016465232
+numeric__distance_km,0.066574916,0.008506657,0.07374971,0.003096678
+categorical__weather_destination_storm,0.06482463,-0.0116684465,0.085661754,-0.01567484
+numeric__carrier_on_time_rate,0.04806255,-0.0054154824,0.047233786,-0.0062211226
+numeric__weather_pressure,0.047314275,-0.0011306044,0.057622444,-0.007499154
+categorical__carrier_network_congestion_high,0.039050642,-0.012577371,0.053603776,-0.016541196
+numeric__package_weight_kg,0.03414788,-0.0014574305,0.05827255,-0.006413366
+numeric__precipitation_prob,0.03228473,-0.005565834,0.058811728,-0.0005605363
+numeric__avg_temp_origin,0.026543634,-6.6572655e-05,0.073596224,-0.01875536
+categorical__route_type_mixed,0.01837178,-0.00075621007,0.008481994,-0.0011464709
+numeric__distance_x_congestion,0.01635899,-0.0036933005,0.08197051,-0.0071146553
+numeric__ship_hour,0.014698351,-0.0057865204,0.038795244,-0.0006168579
+categorical__shipping_hour_bin_morning,0.014060333,-0.00018435411,0.0020140922,0.00017317342
+categorical__route_type_highway,0.010006938,0.0017381563,0.0035935577,-0.0005776462
+numeric__month,0.009635172,-0.004459573,0.06551625,-0.06551625
+categorical__carrier_EcomExpress,0.009450335,0.00095544517,0.017967576,0.0009886213
+categorical__origin_Chennai,0.008156964,-0.00019861195,0.0065604975,-0.00049692165
+categorical__destination_Ahmedabad,0.0072447727,-0.00023596766,0.02913861,-0.0041147894
+categorical__ship_day_of_week_1,0.005811682,2.3077242e-05,0.018862048,-0.00019149303
+categorical__route_Delhi → Kolkata,0.005367617,-0.000985072,0.0,0.0
+categorical__shipping_hour_bin_afternoon,0.004683381,-0.0006367189,0.0,0.0
+categorical__origin_Mumbai,0.004557046,-0.00026924978,0.0021956402,-0.00031922315
+categorical__destination_Surat,0.004339109,-0.0017025651,0.00049362174,0.00026193546
+categorical__destination_Jaipur,0.004300541,0.0005380705,0.0016023691,-2.842186e-05
+categorical__route_Delhi → Ahmedabad,0.0042919167,0.0010773055,0.0010579525,0.00036824006
+categorical__route_Chennai → Surat,0.004273345,-0.0011486167,0.0,0.0
+categorical__origin_Bangalore,0.004234446,-0.0015133074,0.0,0.0
+categorical__carrier_network_congestion_medium,0.0033116997,-0.00017790684,0.013779941,0.00055614015
+categorical__origin_Delhi,0.0031720775,0.0004410362,0.00040935335,8.558493e-05
+categorical__destination_Hyderabad,0.0030914934,0.0005509274,0.005707018,-0.0021799924
+categorical__carrier_BlueDart,0.0028915494,0.00011795176,0.018757531,0.0035634632
+categorical__carrier_FedEx,0.002881512,0.00014543673,0.0020787672,0.0002731504
+categorical__route_Chennai → Hyderabad,0.0026685558,0.000168699,0.0,0.0
+categorical__shipment_type_express,0.0025481223,-1.9728315e-05,0.024839746,0.0005747773
+categorical__carrier_DTDC,0.002309476,-0.00017155011,0.0024488901,8.736845e-06
+categorical__route_Mumbai → Hyderabad,0.0021025767,-5.4085627e-05,0.0043620523,-0.0002796758
+categorical__ship_day_of_week_3,0.001980071,-0.00046428284,0.0009261455,3.707393e-05
+categorical__route_Chennai → Jaipur,0.0012846875,-3.872377e-06,0.0006940506,6.660809e-05
+categorical__ship_day_of_week_2,0.0012236319,-0.0003096079,0.00077191513,-0.00021854875
+categorical__ship_day_of_week_5,0.0011951423,-0.0001003729,0.010349727,0.0017620919
+categorical__route_Bangalore → Ahmedabad,0.0010975262,0.00013166755,0.0,0.0
+categorical__route_Bangalore → Jaipur,0.0010603989,-0.00024310837,0.0,0.0
+categorical__route_Bangalore → Hyderabad,0.0010416032,-4.3727843e-05,0.001709665,-0.0004905022
+categorical__route_Bangalore → Kolkata,0.001009089,0.00010805809,0.0044431905,-0.0004162334
+categorical__ship_day_of_week_4,0.0009936077,-0.000108565924,0.004924299,0.0006627598
+categorical__carrier_Delhivery,0.00089226285,-0.00018469378,0.004414445,0.0011351188
+categorical__route_Delhi → Jaipur,0.00085455674,0.00034324228,0.0004284517,0.00026228552
+categorical__route_Chennai → Ahmedabad,0.0008517303,0.00014711708,0.0,0.0
+categorical__origin_Pune,0.00076509506,6.1971696e-05,0.0027776326,-0.00088130904
+categorical__route_Pune → Jaipur,0.00075968617,-0.0004673778,0.0,0.0
+numeric__is_weekend,0.000737547,-0.00011319738,0.01746164,0.0021386638
+categorical__route_Pune → Hyderabad,0.00051360537,-0.00015746531,0.0,0.0
+categorical__route_Pune → Kolkata,0.00036199013,-8.899377e-06,0.0,0.0
+categorical__route_Pune → Ahmedabad,0.00024043511,7.951678e-05,0.003248443,-0.0007840481
+categorical__destination_Kolkata,0.00010215379,3.4361645e-05,0.008515344,-0.0016613279
+categorical__route_Mumbai → Jaipur,7.7545155e-05,4.1933763e-05,0.0,0.0
+numeric__is_peak_season,0.0,0.0,0.0,0.0
+categorical__route_Mumbai → Kolkata,0.0,0.0,0.0,0.0
+categorical__route_Mumbai → Ahmedabad,0.0,0.0,0.0,0.0
+categorical__route_Delhi → Surat,0.0,0.0,0.0030036357,-0.0008567683
+categorical__route_Delhi → Hyderabad,0.0,0.0,0.0,0.0
+categorical__route_Bangalore → Surat,0.0,0.0,0.0,0.0
+categorical__route_Chennai → Kolkata,0.0,0.0,0.0,0.0
+categorical__route_Pune → Surat,0.0,0.0,0.0,0.0
+categorical__route_Mumbai → Surat,0.0,0.0,0.001255905,0.0002101561
+categorical__ship_day_of_week_0,0.0,0.0,0.0,0.0
+categorical__shipment_type_standard,0.0,0.0,0.0046657287,0.00022676896
+categorical__ship_day_of_week_6,0.0,0.0,0.0045341235,0.0014400532
+categorical__shipping_hour_bin_evening,0.0,0.0,0.0,0.0
+categorical__shipping_hour_bin_night,0.0,0.0,0.0,0.0
+categorical__carrier_network_congestion_low,0.0,0.0,0.0,0.0
